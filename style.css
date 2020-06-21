@@ -1,0 +1,84 @@
+h1 {
+    color: white;
+}
+
+/** {
+    border: solid;
+} */
+
+a:link{
+    color: aquamarine;
+
+}
+
+a:visited{
+    color: aquamarine;
+
+}
+
+.item{
+    position:relative
+}
+
+.item p{
+    font-size: larger;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-60%)
+
+}
+
+.item:hover p{
+    opacity:1
+
+}
+
+.item:hover img{
+    opacity:0.5
+}
+
+.item p{
+    opacity: 0;
+    color: deeppink;
+}
+
+.header *{
+    margin: 30px;
+    padding: 30px;
+}
+
+.header{
+    background-color:darkorchid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    color: antiquewhite;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: antiquewhite;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: antiquewhite;
+}
+
+body{
+    background-color: rgb(47,162,78);
+    background-image: url('galaxy.jpg');
+}
